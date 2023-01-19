@@ -17,8 +17,10 @@ public class PageViewModel extends ViewModel {
 
             if(input == 0){
                 return "https://jeevasimba.github.io/Jeevasimba/English";
-            }else {
+            }else if(input == 1) {
                 return "https://jeevasimba.github.io/Jeevasimba/tenses";
+            } else {
+                return "https://jeevasimba.github.io/Jeevasimba/words";
             }
 
          //   return "https://github.com/Jeevasimba/webviewrotate/blob/main/app/src/main/res/layout/activity_main.xml" + input;
