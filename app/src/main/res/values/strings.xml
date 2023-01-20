@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Learning</string>
     <string name="tab_text_1">Home</string>
-    <string name="tab_text_2">Tenses</string>
-    <string name="tab_text_3">Words</string>
+    <string name="tab_text_2">Audio</string>
+    <string name="tab_text_3">Tenses</string>
+    <string name="tab_text_4">Words</string>
 </resources>
