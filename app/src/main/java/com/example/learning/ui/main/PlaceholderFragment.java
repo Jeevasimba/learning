@@ -58,7 +58,7 @@ public class PlaceholderFragment extends Fragment {
         pageViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
-
+                webView.getSettings().setJavaScriptEnabled(true);
                 webView.loadUrl(s);
                 webView.getSettings().setJavaScriptEnabled(true);
                // textView.setText(s);
