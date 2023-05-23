@@ -1,0 +1,8 @@
+# ignore ALL .log files
+*.gradlew
+*.gradlew.bat
+
+# ignore ALL files in ANY directory named temp
+app/build/
+.gradle/
+.idea/
