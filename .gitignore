@@ -2,7 +2,7 @@
 *.gradlew
 *.gradlew.bat
 
-# ignore ALL files in ANY directory named temp
-app/build/
+# ignore ALL files in ANY directory 
+build/
 .gradle/
 .idea/
